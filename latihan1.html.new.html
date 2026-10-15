@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengenalan VPS dan Cloud</title>
+    <!-- Menggunakan font modern dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset dan Styling Dasar */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Judul Utama */
+        h2 {
+            font-size: 24px;
+            color: #1e293b;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        /* Kartu untuk Setiap Poin */
+        .card {
+            background: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            margin-bottom: 16px;
+            border-radius: 0 12px 12px 0;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(59, 130, 246, 0.1);
+        }
+
+        /* Sub-judul (Nama Layanan) */
+        h3 {
+            font-size: 18px;
+            color: #1e293b;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        /* Paragraf Penjelasan */
+        p {
+            font-size: 14px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Fase 1: Pengenalan Konsep VPS & Cloud</h2>
+
+        <div class="card">
+            <h3>1. Shared Hosting</h3>
+            <p>Shared Hosting adalah layanan hosting yang digunakan bersama oleh banyak pengguna dalam satu server.</p>
+        </div>
+
+        <div class="card">
+            <h3>2. Dedicated Server</h3>
+            <p>Dedicated Server adalah server khusus yang digunakan oleh satu pengguna sehingga sumber dayanya tidak dibagi dengan pengguna lain.</p>
+        </div>
+
+        <div class="card">
+            <h3>3. Amazon Lightsail</h3>
+            <p>Amazon Lightsail adalah layanan cloud yang mudah digunakan untuk membuat dan mengelola VPS dengan biaya yang sederhana.</p>
+        </div>
+
+        <div class="card">
+            <h3>4. Amazon EC2</h3>
+            <p>Amazon EC2 adalah layanan AWS yang menyediakan server virtual dengan pengaturan kapasitas dan sumber daya yang fleksibel.</p>
+        </div>
+    </div>
+
+</body>
+</html>
